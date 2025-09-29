@@ -9,3 +9,7 @@ Control Subway Surfers (or any arrow-key game) **hands-free** using your **face 
 - ⬇️ Roll – move head down  
 - Works with any arrow-key game (tested with Subway Surfers Web)  
 - Real-time face tracking using MediaPipe 
+
+## 📦 Installation
+Clone the repo:
+```bash
