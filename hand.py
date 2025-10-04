@@ -29,6 +29,7 @@ while True:
             dot_y = int(index_finger_tip.y * height)
 
             # hand landmarks!!!!!!!
+            #width and height with index finger
             mp_draw.draw_landmarks(frame, hand_landmarks, mp_hands.HAND_CONNECTIONS)
 
     if dot_x is not None and dot_y is not None:
