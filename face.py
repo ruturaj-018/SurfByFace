@@ -33,6 +33,11 @@ while cap.isOpened():
             nose = face_landmarks.landmark[1]
             nose_x, nose_y = int(nose.x * w), int(nose.y * h)
 
+            # Set the initial center position when the face is first detected
+            if not calibrated:
+                center_x, center_y = nose_x, nose_y
+                calibrated = True  # Mark as calibrated
+
             # Define head movement thresholds
             x_threshold = 40  # Left-Right movement sensitivity
             y_threshold = 20  # Up-Down movement sensitivity
