@@ -1,1 +1,3 @@
-cd SurfByFace
+opencv-python
+mediapipe
+pyautogui
